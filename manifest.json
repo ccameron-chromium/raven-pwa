@@ -1,0 +1,14 @@
+{
+  "name": "Raven, the Elitist Mac User",
+  "short_name": "Raven",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color":"#ffffff",
+  "icons": [
+    {
+      "src": "raven.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+}

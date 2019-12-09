@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+#bg {
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+}
+</style>
+<title>Raven, the elitist Mac user</title>
+<link rel="manifest" href="/manifest.json">
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  };
+</script>
+</head>
+<body>
+<img id='bg' src='raven.jpg'>
+<p>
+I use a Mac because I'm just better than you are.
+</p>
+</body>
+</html>
