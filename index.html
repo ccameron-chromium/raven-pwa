@@ -13,9 +13,21 @@
 <title>Raven, the elitist Mac user</title>
 <link rel="manifest" href="manifest.json">
 <script>
+window.onload = () => {
   if('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js');
   };
+
+  if ('launchQueue' in window) {
+    launchQueue.setConsumer(launchParams => {
+      if (!launchParams.files.length)
+        return;
+
+      const fileHandle = launchParams.files[0];
+      console.log("I should learn HTML.");
+    });
+  }
+}
 </script>
 </head>
 <body>
