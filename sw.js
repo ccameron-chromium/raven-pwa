@@ -1,6 +1,6 @@
 var install_handler = function(event) {
   var add_to_cache = function(cache) {
-    return cache.addAll(['/offline.html']);
+    return cache.addAll(['offline.html']);
   }
   event.waitUntil(caches.open('offline-cache').then(add_to_cache));
 }
