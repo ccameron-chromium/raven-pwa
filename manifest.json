@@ -10,12 +10,14 @@
       "src": "raven.png",
       "sizes": "512x512",
       "type": "image/png"
-    }],
-  "file_handlers": [
-  {
-    "action": "./",
-    "accept": {
-      "text/csv": [ ".csv" ]
     }
-  }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "text/csv": [ ".csv" ]
+      }
+    }
+  ]
 }
