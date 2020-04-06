@@ -17,6 +17,18 @@
       "action": "./",
       "accept": {
         "text/csv": [ ".csv" ]
+      },
+    },
+    {
+      "action": "./",
+      "accept": {
+        "text/info": [".info"]
+      }
+    },
+    {
+      "action": "./",
+      "accept": {
+        "text/markdown": [".md"]
       }
     }
   ]
