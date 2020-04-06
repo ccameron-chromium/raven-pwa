@@ -20,19 +20,13 @@
       }
     },
     {
-      "action": "./",
+      "action": "./info.html",
       "accept": {
         "text/info": [".info"]
       }
     },
     {
-      "action": "./",
-      "accept": {
-        "text/markdown": [".md"]
-      }
-    },
-    {
-      "action": "./",
+      "action": "./jpg.html",
       "accept": {
         "image/jpeg": [".jpg"]
       }
