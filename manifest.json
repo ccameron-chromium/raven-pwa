@@ -30,6 +30,12 @@
       "accept": {
         "text/markdown": [".md"]
       }
+    },
+    {
+      "action": "./",
+      "accept": {
+        "image/jpeg": [".jpg"]
+      }
     }
   ]
 }
